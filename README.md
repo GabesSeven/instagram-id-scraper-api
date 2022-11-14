@@ -35,7 +35,7 @@ The program is executed passing the input file as the first parameter and the ou
 
     $ python search.py input-file.txt output-file.txt
 
-Finally, the ID of each user separated by pipeline will be returned, if the number of users found corresponding to the searched string is less than three: <br>
+Finally, the ID of each user separated by pipeline will be returned, if the number of users found corresponding to the searched string is less than four: <br>
 
     $ ls output-file.txt 
     user1
@@ -48,6 +48,7 @@ Finally, the ID of each user separated by pipeline will be returned, if the numb
     |
     ...
     
+In the previous example, user1 found four users, user2 two users, user3 one user, and user4 found more than four users.
 
 <!--endsec-->
 
