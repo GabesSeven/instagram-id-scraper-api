@@ -22,11 +22,31 @@ When parsing the string, if there are more than three users, nothing is returned
 
 <!--sec data-title="Prompt: OS X and Linux" data-id="OSX_Linux_prompt" data-collapse=true ces-->
 
-To run the "search.py" program, it is necessary to have an input file with the strings to be scraped:
+To run the "search.py" program, it is necessary to have an input file with the strings to be scraped: <br>
 
-{% filename %}command-line{% endfilename %}
+    $ls input-file.txt 
+    user1
+    user2
+    user3
+    user4
+    ...
 
-    $
+The program is executed passing the input file as the first parameter and the output file as the second parameter: <br>  
+
+    $python search.py input-file.txt output-file.txt
+
+Finally, the ID of each user separated by pipeline will be returned, if the number of users found corresponding to the searched string is less than three: <br>
+
+    $ls output-file.txt 
+    user1
+    |id1,id2,id3
+    user2
+    |id1,id2
+    user3
+    |id1
+    user4
+    |
+    ...
     
 
 <!--endsec-->
