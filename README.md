@@ -12,7 +12,7 @@ When parsing the string, if there are more than three users, nothing is returned
   <br>
 "search.py" has an authentication process, simulating packages from a smartphone.<br>
   <br>
-"search.py" does not have an authentication process.<br>
+"search2.py" does not have an authentication process.<br>
 </p>
 
 <hr>
