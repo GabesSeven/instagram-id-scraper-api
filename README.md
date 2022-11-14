@@ -24,7 +24,7 @@ When parsing the string, if there are more than three users, nothing is returned
 
 To run the "search.py" program, it is necessary to have an input file with the strings to be scraped: <br>
 
-    $ls input-file.txt 
+    $ ls input-file.txt 
     user1
     user2
     user3
@@ -33,11 +33,11 @@ To run the "search.py" program, it is necessary to have an input file with the s
 
 The program is executed passing the input file as the first parameter and the output file as the second parameter: <br>  
 
-    $python search.py input-file.txt output-file.txt
+    $ python search.py input-file.txt output-file.txt
 
 Finally, the ID of each user separated by pipeline will be returned, if the number of users found corresponding to the searched string is less than three: <br>
 
-    $ls output-file.txt 
+    $ ls output-file.txt 
     user1
     |id1,id2,id3
     user2
